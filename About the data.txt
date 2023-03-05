@@ -1,0 +1,12 @@
+About the car price dataset :
+This dataset is a real world example of car pricing between years of 2010 to 2012. 
+It has columns that describe the details about cars. This include informations about cars biulder company or model, their usage, the price and pricerange of their transaction and capture the date of each transaction in day/month/year format.
+
+It might have some time series relationships or some regression between each variable and our target wich is fair pricing based on the records. we can find most effective variables for predicting price by understanding data and perform some Comparative analysis
+like correlation heatmap, KNN, Decision tree, Multy variable analysis and etc.
+
+It has a medium size dataset but the dataset is large enough to make it hard to use calssic statistic methods or tools like Microsoft Excel. That's because using old methods drain computer's memory resources and it's time consuming, On the other hand, it might not have good accuracy and validation to predict the fare price range for future announcements because cars have such a big varity of details and grouping them is not doable or it's complicity is too much to deal it with traditional analysis.
+
+Machine learning deals with large scale and complicate data much faster and if you use optimal model, you can rely on it's validity and accuracy for prediction the fare price.
+Some pregrouping raise it's accuracy and it should be done on data preproccessing and future engineering. Also using the combination of ML techniques can help to get more accurate results.
+In comparison with old methods of predicting, Fitting data with ML methods, ML techniques has much more faster computing and less resource consuming that makes it beneficial to use. The only think we should keep it in mind is to search, read, learn and try to use to best method to gain optimum results. We should also be aware of ML overfitting. This is a concept that decrease Ml accuracy or validation and We should try our best to avoid it or make it minimum.
