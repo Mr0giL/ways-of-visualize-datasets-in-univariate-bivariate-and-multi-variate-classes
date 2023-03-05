@@ -7,3 +7,5 @@ I use the real world dataset in car dealing market to perfom my python codes on 
 this section I upload codes of understanding and preprocessing datasets and after that I upload machine learning and datamining codes of predicting best price offer for each class.
 
 ### Please read the 'About the data.txt' file.
+
+you can see the preproccessing results in 'somhow preproccessed data.csv'. the preproccessing procedure didn't complete and it will be update in future tasks.
