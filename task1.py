@@ -270,6 +270,12 @@ df['UsedYears'] = (df['Date'].dt.year - df.ProductionYear)
 df['UsedDays'] = (df['Date'].dt.day + (df.UsedYears - 1)*365)
 df['MilePerYear'] = (df.Mileage / df.UsedYears)
 df['MilePerDay'] = (df.Mileage / df.UsedDays)
+
+dfs['UsedYears'] = df['UsedYears']
+dfs['UsedDays'] = df['UsedDays']
+dfs['MilePerYear'] = df['MilePerYear']
+dfs['MilePerDay'] = df['MilePerDay']
+
 ax5 = sb.heatmap(df.corr(), annot = True)
 dfs = df.join(obj_df)
 fig = plt.figure(figsize=(200,200))
@@ -277,3 +283,4 @@ ax6 = sb.heatmap(dfs.corr(),annot= True)
 plt.show()
 
 print(df)
+df.to_csv('Somehow Preproccessed data.csv')
